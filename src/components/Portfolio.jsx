@@ -4,19 +4,19 @@ const proyectos = [
   {
     titulo: "App de Clima",
     descripcion: "App React con consumo de API para clima en tiempo real.",
-    imagen: "/assets/images/proyectos/proyecto1.png",
+    imagen: `${import.meta.env.BASE_URL}assets/images/proyectos/proyecto1.png`,
     link: "https://github.com/faustogm/app-clima",
   },
   {
     titulo: "Gestor de Tareas",
     descripcion: "Aplicación full stack con CRUD de tareas en tiempo real.",
-    imagen: "/assets/images/proyectos/proyecto2.png",
+    imagen: `${import.meta.env.BASE_URL}assets/images/proyectos/proyecto2.png`,
     link: "https://github.com/faustogm/gestor-tareas",
   },
   {
     titulo: "Portfolio Personal",
     descripcion: "Sitio responsive hecho en React para mostrar mis proyectos.",
-    imagen: "/assets/images/proyectos/proyecto3.png",
+    imagen: `${import.meta.env.BASE_URL}assets/images/proyectos/proyecto3.png`,
     link: "https://github.com/faustogm/portfolio",
   },
 ];

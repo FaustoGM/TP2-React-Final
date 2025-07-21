@@ -17,13 +17,13 @@ const NotaExtra = () => {
           title="Ir a mi Instagram"
         >
           <img
-            src="/assets/images/fotoperfil.png"
+            src={`${import.meta.env.BASE_URL}assets/images/fotoperfil.png`}
             alt="Perfil"
             className="pic fade-delay"
           />
         </a>
         <img
-          src="/assets/icons/instagram.svg"
+          src={`${import.meta.env.BASE_URL}assets/icons/instagram.svg`}
           alt="Instagram"
           className="insta-icon"
         />

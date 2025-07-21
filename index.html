@@ -1,22 +1,24 @@
 <!doctype html>
-<html lang="es"> <!-- cambié a "es" ya que es un portfolio en español -->
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Fausto Giordano</title>
 
-    <!-- ✅ Bootstrap CSS -->
+    <!-- ✅ Bootstrap 5.3.7 CSS -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
     />
 
-    <!-- ✅ Font Awesome para íconos -->
+    <!-- ✅ Font Awesome 6.7.2 CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      integrity="sha512-jQqEqQ4aGkD9jKeA15AEI2p4fZ+Gx6m6Z1rqRYm7pL+ZxHfu9F4/9MfXgIidCPkXU1G5R4cR2r4X/2sLmt+guw=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-+yzUeQoG5LQg8mYyN7qYY5lNyIVZ3R9HJLQYvZ5XQJj7GkSLw5+6Ww1p7F4Jp4Pvw5X5lRlQ6XwY4U5Jw4F5g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -24,13 +26,15 @@
   <body>
     <div id="root"></div>
 
-    <!-- ✅ Bootstrap JS bundle (defer = carga luego del HTML) -->
+    <!-- ✅ Bootstrap JS Bundle (con defer) -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      defer>
-    </script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-    <!-- ✅ Tu script principal -->
+    <!-- ✅ React Entry Point -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
