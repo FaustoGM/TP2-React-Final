@@ -1,0 +1,36 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scroll-to-top.visible {
+    opacity: 1;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  /* Dark Mode */
+  .scroll-to-top.dark {
+    background-color: #6c757d;
+  }
+  
+  .scroll-to-top.dark:hover {
+    background-color: #5a6268;
+  }
